@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3C836B">
+    <link rel="stylesheet" href="/dist/css/all.min.css">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <!-- <link rel="stylesheet" href="/dist/css/site.css"> -->
+    <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="/dist/img/sfcl-logo-sm.png">
+    <link rel="stylesheet" href="/dist/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/dist/css/owl.theme.default.min.css">
+
+    <!-- Font Link  -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Samriddhi Finance | Vaccancy List</title>
+</head>
+<body>
+
+    <!-- main header section -->
+    <div class="main-header">
+        <div class="top-header">
+            <div class="wrapper">
+               <div class="top-header-content">
+                    <div class="top-left-item">
+                        <div class="top-left-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hetauda, Nepal</span>
+                        </div>
+                        <div class="top-left-content">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@sfcl.com.np</span>
+                        </div>
+                        <div class="top-left-content">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>057-525100, 01-421099</span>
+                        </div>
+                    </div>
+                    <div class="top-right-item">
+                        <div class="top-right-content search">
+                            <input type="search" class="search-box form-control input-field" name="search" id="" placeholder="Search">
+                            <button class="btn-search"><i class="fas fa-search"></i></button>
+                        </div>
+
+                        <div class="top-right-content notification">
+                            <a href=""><i class="far fa-bell"></i></a>
+                        </div>
+
+                        <div class="top-right-content lng-switch">
+                            <div class="btn-group" id="status" data-toggle="buttons">
+                                <label class="btn btn-default btn-on btn-sm active">
+                                <input type="radio" value="1" checked="checked">NP</label>
+                                <label class="btn btn-default btn-off btn-sm">
+                                <input type="radio" value="0" >EN</label>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+                
+        </div>
+
+        <div class="bottom-header">
+            <div class="wrapper">
+                <nav class="bottom-navigation">
+                    <a href="index.html" class="top-header-logo">
+                        <!-- <img class="img-responsive lg-logo" src="./dist/img/sfcl-logo-lg.png" alt="sfcl main logo"> -->
+                        <img class="img-responsive sm-logo" src="./dist/img/samriddhi_logo_png.png" alt="sfcl main logo">
+                    </a>
+
+                    <!-- hamburger toggler button -->
+                    <div class="mobile__hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <!-- end of hamburger toggler button -->
+                    
+                    <ul class="navigation-menu">
+                        <li class="menu-item active">
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                About Us
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            
+                            <ul class="dropdown-menu">
+                                <li class="menu-item"><a href="/about-us.html"><span class="text-middle">Introduction</span></a></li>
+                                <li class="menu-item"><a href="/vision.html"><span class="text-middle">Vision, Mission & Objectives</span></a></li>
+                                <li class="menu-item"><a href="#"><span class="text-middle">Structure</span></a></li>
+                                <li class="menu-item"><a href="/board-of-director.html"><span class="text-middle">Board of Directors</span></a></li>
+                                <li class="menu-item"><a href="/board-of-director.html"><span class="text-middle">Management Team</span></a></li>
+                                <li class="menu-item"><a href="/right-to-information.html"><span class="text-middle">Company Secretary</span></a></li>
+                                <li class="menu-item"><a href="/right-to-information"><span class="text-middle">Right To Information</span></a></li>
+                                <li class="menu-item"><a href="/gho"><span class="text-middle">Grievance Handling Officer</span></a></li>
+                                <li class="menu-item"><a href="/branch-network.html"><span class="text-middle">Branch Network</span></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Loan
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="menu-item"><a href="/service/samriddhi-home-loan"><span class="text-middle">Samriddhi Home Loan</span></a></li>
+                                <li class="menu-item"><a href="/service/samriddhi-personnal-loan"><span class="text-middle">Samriddhi Personnal Loan</span></a></li>
+                                <li class="menu-item"><a href="/service/samriddhi-education-loan"><span class="text-middle">Samriddhi Education Loan</span></a></li>
+                                <li class="menu-item"><a href="/service/samriddhi-hire-purchase-loan"><span class="text-middle">Samriddhi Hire Purchase Loan</span></a></li>
+                                <li class="menu-item"><a href="/service/samriddhi-business-loan"><span class="text-middle">Samriddhi Business Loan</span></a></li>
+                                <li class="menu-item"><a href="/service/samriddhi-professional-loan"><span class="text-middle">Samriddhi Professional Loan</span></a></li>
+                                <li class="menu-item"><a href="/service/samriddhi-margin-lending"><span class="text-middle">Samriddhi Margin Lending</span></a></li>
+                                <li class="menu-item"><a href="/service/samriddhi-deprive-sector-loan"><span class="text-middle">Samriddhi Deprive Sector Loan </span></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Deposit
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="menu-item"><a href="#">Fixed Deposits</a></li>
+                                <li class="menu-item"><a href="#">Recurring Fixed deposit</a></li>
+                                <li class="menu-item"><a href="#">Recurring aving Deposits</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Services
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="menu-item"><a href="#">Cheque Clearance</a></li>
+                                <li class="menu-item"><a href="#">Remittance Service</a></li>
+                                <li class="menu-item"><a href="#">Mobile Banking</a></li>
+                                <li class="menu-item"><a href="#">Debit Card Service</a></li>
+                                <li class="menu-item"><a href="#">ABBS</a></li>
+                                <li class="menu-item"><a href="#">Connect IPS</a></li>
+                                <li class="menu-item"><a href="#">NCHL IPS</a></li>
+                                <li class="menu-item"><a href="#">Samriddhi QR Code</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Resources
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="menu-item"><a href="#">E-Calendar 2078</a></li>
+                                <li class="menu-item"><a href="#">Gallery</a></li>
+                                <li class="menu-item"><a href="#">Reports</a></li>
+                                <li class="menu-item"><a href="#">News</a></li>
+                                <li class="menu-item"><a href="#">Download</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Rate
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="menu-item"><a href="#">Interest Rates</a></li>
+                                <li class="menu-item"><a href="#">Base Rates</a></li>
+                                <li class="menu-item"><a href="#">Exchange Rate</a></li>
+                                <li class="menu-item"><a href="#">Standard Tariff</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Online
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="menu-item"><a href="#">Online Account Opening</a></li>
+                                <li class="menu-item"><a href="#">e-KYC</a></li>
+                                <li class="menu-item"><a href="#">Online Application</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="/contact-us.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- vaccancy banner psection -->
+    <div class="vaccacncy__banner">
+        <div class="vaccancy__banner-img">
+            <img src="./dist/img/forex-bg.png" alt="vaccacncy list image" class="img-responsive">
+            <h1 class="banner-title">
+                vaccancy list
+            </h1>
+        </div>
+    </div>
+    <!-- vaccancy banner psection -->
+
+    <!-- vaccancy list in grid view -->
+    <div class="vaccancy__list">
+        <div class="vaccancy__list-wrapper container">
+            <div class="vaccancy-count">
+                <p class="count-text">
+                    <span>10</span> results found for <span>job vaccancy</span>
+                </p>
+            </div>
+
+            <div class="vaccancy__list-wrapper-grid">
+                <div class="vaccancy__list-wrapper-grid-card">
+                    <div class="job-logo">
+                        <div class="card-img">
+                            <img src="./dist/img/feature-brand-1.png" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="card-title">
+                            <span class="company-title">
+                                Google INC
+                            </span>
+                            <a href="vaccancy-view.html" class="job-title">
+                                Product Designer
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="job-details">
+                        <div class="job-details-location job-details-badge">
+                            <p class="locations badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kathmandu
+                            </p>
+                        </div>
+
+                        <div class="job-details-type job-details-badge">
+                            <p class="type badge">
+                                <i class="fas fa-briefcase"></i>
+                                Full-Time
+                            </p>
+                        </div>
+
+                        <div class="job-details-salary job-details-badge">
+                            <p class="salary badge">
+                                <i class="fas fa-dollar-sign"></i>
+                                30k-50k
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job-post-date">
+                        <span>3 days ago</span>
+                    </div>
+
+                    <div class="job-des">
+                        <p class="des">
+                            We are looking for Enrollment Advisors who are looking to take 30-35 appointments per week. All leads are pre-scheduled.
+                        </p>
+                    </div>
+
+                    <div class="card-cta">
+                        <a href="" class="btn__cta apply-btn">
+                            <span>apply now</span>
+                        </a>
+                        <a href="" class="btn__cta save-btn">
+                            <span>
+                                <i class="far fa-bookmark"></i>
+                                save it
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="vaccancy__list-wrapper-grid-card">
+                    <div class="job-logo">
+                        <div class="card-img">
+                            <img src="./dist/img/feature-brand-2.png" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="card-title">
+                            <span class="company-title">
+                                Bent Ray Technology
+                            </span>
+                            <a href="" class="job-title">
+                                UI/UX Designer
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="job-details">
+                        <div class="job-details-location job-details-badge">
+                            <p class="locations badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                lalitpur
+                            </p>
+                        </div>
+
+                        <div class="job-details-type job-details-badge">
+                            <p class="type badge">
+                                <i class="fas fa-briefcase"></i>
+                                Full-Time
+                            </p>
+                        </div>
+
+                        <div class="job-details-salary job-details-badge">
+                            <p class="salary badge">
+                                <i class="fas fa-dollar-sign"></i>
+                                15k-30k
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job-post-date">
+                        <span>3 days ago</span>
+                    </div>
+
+                    <div class="job-des">
+                        <p class="des">
+                            We are looking for Enrollment Advisors who are looking to take 30-35 appointments per week. All leads are pre-scheduled.
+                        </p>
+                    </div>
+
+                    <div class="card-cta">
+                        <a href="" class="btn__cta apply-btn">
+                            <span>apply now</span>
+                        </a>
+                        <a href="" class="btn__cta save-btn">
+                            <span>
+                                <i class="far fa-bookmark"></i>
+                                save it
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="vaccancy__list-wrapper-grid-card">
+                    <div class="job-logo">
+                        <div class="card-img">
+                            <img src="./dist/img/feature-brand-4.png" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="card-title">
+                            <span class="company-title">
+                                Optimum Futurist
+                            </span>
+                            <a href="" class="job-title">
+                                Frontend Developer
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="job-details">
+                        <div class="job-details-location job-details-badge">
+                            <p class="locations badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kathmandu
+                            </p>
+                        </div>
+                        <div class="job-details-type job-details-badge">
+                            <p class="type badge">
+                                <i class="fas fa-briefcase"></i>
+                                Full-Time
+                            </p>
+                        </div>
+                        <div class="job-details-salary job-details-badge">
+                            <p class="salary badge">
+                                <i class="fas fa-dollar-sign"></i>
+                                35k-55k
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job-post-date">
+                        <span>3 days ago</span>
+                    </div>
+
+                    <div class="job-des">
+                        <p class="des">
+                            We are looking for Enrollment Advisors who are looking to take 30-35 appointments per week. All leads are pre-scheduled.
+                        </p>
+                    </div>
+
+                    <div class="card-cta">
+                        <a href="" class="btn__cta apply-btn">
+                            <span>apply now</span>
+                        </a>
+                        <a href="" class="btn__cta save-btn">
+                            <span>
+                                <i class="far fa-bookmark"></i>
+                                save it
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="vaccancy__list-wrapper-grid-card">
+                    <div class="job-logo">
+                        <div class="card-img">
+                            <img src="./dist/img/feature-brand-1.png" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="card-title">
+                            <span class="company-title">
+                                Google INC
+                            </span>
+                            <a href="vaccancy-view.html" class="job-title">
+                                Product Designer
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="job-details">
+                        <div class="job-details-location job-details-badge">
+                            <p class="locations badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kathmandu
+                            </p>
+                        </div>
+
+                        <div class="job-details-type job-details-badge">
+                            <p class="type badge">
+                                <i class="fas fa-briefcase"></i>
+                                Full-Time
+                            </p>
+                        </div>
+
+                        <div class="job-details-salary job-details-badge">
+                            <p class="salary badge">
+                                <i class="fas fa-dollar-sign"></i>
+                                30k-50k
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job-post-date">
+                        <span>3 days ago</span>
+                    </div>
+
+                    <div class="job-des">
+                        <p class="des">
+                            We are looking for Enrollment Advisors who are looking to take 30-35 appointments per week. All leads are pre-scheduled.
+                        </p>
+                    </div>
+
+                    <div class="card-cta">
+                        <a href="" class="btn__cta apply-btn">
+                            <span>apply now</span>
+                        </a>
+                        <a href="" class="btn__cta save-btn">
+                            <span>
+                                <i class="far fa-bookmark"></i>
+                                save it
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="vaccancy__list-wrapper-grid-card">
+                    <div class="job-logo">
+                        <div class="card-img">
+                            <img src="./dist/img/feature-brand-2.png" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="card-title">
+                            <span class="company-title">
+                                Bent Ray Technology
+                            </span>
+                            <a href="" class="job-title">
+                                UI/UX Designer
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="job-details">
+                        <div class="job-details-location job-details-badge">
+                            <p class="locations badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                lalitpur
+                            </p>
+                        </div>
+
+                        <div class="job-details-type job-details-badge">
+                            <p class="type badge">
+                                <i class="fas fa-briefcase"></i>
+                                Full-Time
+                            </p>
+                        </div>
+
+                        <div class="job-details-salary job-details-badge">
+                            <p class="salary badge">
+                                <i class="fas fa-dollar-sign"></i>
+                                15k-30k
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job-post-date">
+                        <span>3 days ago</span>
+                    </div>
+
+                    <div class="job-des">
+                        <p class="des">
+                            We are looking for Enrollment Advisors who are looking to take 30-35 appointments per week. All leads are pre-scheduled.
+                        </p>
+                    </div>
+
+                    <div class="card-cta">
+                        <a href="" class="btn__cta apply-btn">
+                            <span>apply now</span>
+                        </a>
+                        <a href="" class="btn__cta save-btn">
+                            <span>
+                                <i class="far fa-bookmark"></i>
+                                save it
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="vaccancy__list-wrapper-grid-card">
+                    <div class="job-logo">
+                        <div class="card-img">
+                            <img src="./dist/img/feature-brand-4.png" alt="" class="img-responsive">
+                        </div>
+
+                        <div class="card-title">
+                            <span class="company-title">
+                                Optimum Futurist
+                            </span>
+                            <a href="" class="job-title">
+                                Frontend Developer
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="job-details">
+                        <div class="job-details-location job-details-badge">
+                            <p class="locations badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kathmandu
+                            </p>
+                        </div>
+                        <div class="job-details-type job-details-badge">
+                            <p class="type badge">
+                                <i class="fas fa-briefcase"></i>
+                                Full-Time
+                            </p>
+                        </div>
+                        <div class="job-details-salary job-details-badge">
+                            <p class="salary badge">
+                                <i class="fas fa-dollar-sign"></i>
+                                35k-55k
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="job-post-date">
+                        <span>3 days ago</span>
+                    </div>
+
+                    <div class="job-des">
+                        <p class="des">
+                            We are looking for Enrollment Advisors who are looking to take 30-35 appointments per week. All leads are pre-scheduled.
+                        </p>
+                    </div>
+
+                    <div class="card-cta">
+                        <a href="" class="btn__cta apply-btn">
+                            <span>apply now</span>
+                        </a>
+                        <a href="" class="btn__cta save-btn">
+                            <span>
+                                <i class="far fa-bookmark"></i>
+                                save it
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of vaccancy list in grid view -->
+
+    <!-- footer section -->
+    <div class="footer-section">
+        <div class="container">
+            <div class="footer-top">    
+                <div class="footer-top-left">
+                    <img src="/dist/img/sfcl-logo-sm.png" alt="" class="img-responsive">
+                    
+                </div>
+
+                <div class="footer-top-right">
+                    <span>Get In Touch With Us <i class="fas fa-chevron-right"></i></span>
+                    <div class="social-icon">
+
+                        <a href="" class="social-icon-bg">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="" class="social-icon-bg">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a href="" class="social-icon-bg">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="" class="social-icon-bg">
+                            <i class="fab fa-viber"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-mid col-lg-12  col-md-12  col-sm-12  col-xs-12">
+                <div class="footer-mid-left col-lg-6 col-md-7 col-sm-7 col-xs-12">
+                   
+                    <div class="footer-mid-left-content">
+                        <h3 class="footer-title">
+                            About Us   
+                        </h3>
+                        <ul>
+                            <li class="footer-text"><a href="">Home Page</a></li>
+                            <li class="footer-text"><a href="">Introduction</a></li>
+                            <li class="footer-text"><a href="">Vision & Objectives</a></li>
+                            <li class="footer-text"><a href="">Structure</a></li>
+                            <li class="footer-text"><a href="">Board Of Director</a></li>
+                            <li class="footer-text"><a href="">Management Team</a></li>
+                            <li class="footer-text"><a href="">Company Secretary</a></li>
+                            <li class="footer-text"><a href="">Right To Information</a></li>
+                            <li class="footer-text"><a href="">Grievance Handling</a></li>
+                            <li class="footer-text"><a href="">Branch Network</a></li>
+                                                       
+                            
+                        </ul>
+                    </div>
+
+                    <div class="footer-mid-left-content">
+                        <h3 class="footer-title">
+                            Our Services   
+                        </h3>
+                        <ul>
+                            <li class="footer-text"><a href="">Cheque Clerance</a></li>
+                            <li class="footer-text"><a href="">Remittance Service</a></li>
+                            <li class="footer-text"><a href="">Mobile Banking</a></li>
+                            <li class="footer-text"><a href="">Debit Card Service</a></li>
+                            <li class="footer-text"><a href="">ABBS</a></li>
+                            <li class="footer-text"><a href="">Connect IPS</a></li>
+                            <li class="footer-text"><a href="">NCHL IPS</a></li>
+                            <li class="footer-text"><a href="">Samriddhi QR Code</a></li>
+                            <li class="footer-text"><a href="">Loans</a></li>
+                            <li class="footer-text"><a href="">Deposit</a></li>
+                            <li class="footer-text"><a href="">Interest Rate</a></li>
+                            
+                            
+                        </ul>
+                    </div>
+
+                    <div class="footer-mid-left-content sub-content">
+                        <div class="">
+                            <h3 class="footer-title">
+                                Our Resources   
+                            </h3>
+                            <ul>
+                                <li class="footer-text"><a href="">E-Calendar 2077</a></li>
+                                <li class="footer-text"><a href="">News</a></li>
+                                <li class="footer-text"><a href="">Gallery</a></li>
+                                <li class="footer-text"><a href="">Notice</a></li>
+                                <li class="footer-text"><a href="">Download</a></li>
+                                <li class="footer-text"><a href="">Reports</a></li>
+                                                            
+                            </ul>
+                        </div>
+
+                        <div class="footer-mid-left-content">
+                            <h3 class="footer-title">
+                                Online Forms  
+                            </h3>
+                            <ul>
+                                <li class="footer-text"><a href="">Account Opening</a></li>
+                                <li class="footer-text"><a href="">e - KYC</a></li>
+                                <li class="footer-text"><a href="">Online Application</a></li>
+                                                           
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="footer-mid-right col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                   
+                    <div class="footer-mid-right-content col-lg-12  col-md-12  col-sm-12  col-xs-12">
+                        <div class="footer-mid-right-content-item col-lg-6 col-md-12 col-sm-12 col-xs-7">
+                            <h3 class="footer-title">
+                                Head Office & Branch  
+                            </h3>
+                            <ul>
+                                <li class="footer-text"><i class="fas fa-map-marker-alt"></i>Hetauda - 01, Makwanpur, Nepal</li>
+                                <li class="footer-text"><i class="fas fa-phone-alt"></i>057-525100, 01-421099</li>
+                                <li class="footer-text"><i class="fas fa-envelope"></i>info@sfcl.com.np</li>
+                                <li class="footer-text"><i class="fas fa-inbox"></i>44</li>
+                                                            
+                            </ul>
+                        </div>
+                        
+                        <div class="app-download col-lg-5 col-md-8 col-sm-12 col-xs-5">
+                            <a href="" class="play-store">
+                                <img src="/dist/img/image 41.png" alt="" class="img-responsive">
+                            </a>
+                            <a href="" class="app-store">
+                                <img src="/dist/img/image 42.png" alt="" class="img-responsive">
+                            </a>
+                        </div>
+
+                        <div class="footer-mid-right-content-bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="footer-branch col-lg-6 col-md-6 col-sm-12  col-xs-6">
+                                <ul>
+                                    <li class="footer-text"><i class="fas fa-map-marker-alt"></i>Narayangadh, Chitwan</li>
+                                    <li class="footer-text"><i class="fas fa-phone-alt"></i>056-595562, 056-595762</li>
+                                </ul>
+                            </div>
+                            <div class="footer-branch col-lg-6 col-md-6 col-sm-12  col-xs-6">
+                                <ul>
+                                    <li class="footer-text"><i class="fas fa-map-marker-alt"></i>Putalisadak, Kathmandu</li>
+                                    <li class="footer-text"><i class="fas fa-phone-alt"></i>01-4218838, 01-4242099</li>
+                                </ul>
+                            </div>
+                            <div class="footer-branch col-lg-6 col-md-6 col-sm-12  col-xs-6">
+                                <ul>
+                                    <li class="footer-text"><i class="fas fa-map-marker-alt"></i>Butwal, Rupandehi</li>
+                                    <li class="footer-text"><i class="fas fa-phone-alt"></i>071-551578, 071-551580</li>
+                                </ul>
+                            </div>
+                            <div class="footer-branch col-lg-6 col-md-6 col-sm-12  col-xs-6">
+                                <ul>
+                                    <li class="footer-text"><i class="fas fa-map-marker-alt"></i>Pokhara, Chipledhunga, Kaski</li>
+                                    <li class="footer-text"><i class="fas fa-phone-alt"></i>061-590281, 061-590282</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+                   
+                    
+                </div>
+
+            </div>
+
+            <div class="footer-bottom col-lg-12  col-md-12  col-sm-12  col-xs-12">
+                <div class="footer-bottom-left">
+                    <span>Copyright ©2021 by Samriddhi Finance Company Limited</span>
+                </div>
+
+                <div class="footer-bottom-right">
+                    <div class="payment-slider owl-carousel owl-payment-slider">
+                        <a href="">
+                            <div class="payment-partner">
+                                <img class="img-responsive" src="/dist/img/esewa.png" alt="">
+                            </div>
+                        </a>
+                        
+                        <a href="">
+                            <div class="payment-partner">
+                                <img class="img-responsive" src="/dist/img/imepay.png" alt="">
+                            </div>
+                        </a>
+                        
+                        <a href="">
+                            <div class="payment-partner">
+                                <img class="img-responsive" src="/dist/img/westernunion.png" alt="">
+                            </div>
+                        </a>
+                        
+                        <a href="">
+                            <div class="payment-partner">
+                                <img class="img-responsive" src="/dist/img/cityexpress.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sidebar icon -->
+    <div class="side-icon">
+        <a href="#" class="icon map">
+            <i class="far fa-map"></i>
+            <span class="text">Direction</span>
+        </a>
+        <a href="#" class="icon location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="text">Location</span>
+        </a>
+        <a href="#" class="icon rate">
+            <i class="fas fa-dollar-sign"></i>
+            <span class="text">Rate</span>
+        </a>
+        <a href="#" class="icon support">
+            <i class="fa fa-headset"></i>
+            <span class="text">Support</span>
+        </a>
+    </div>
+
+
+    <script src="/dist/js/jquery.min.js"></script>
+    <script src="/dist/js/all.min.js"></script>
+    <script src="/dist/js/owl.carousel.min.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+    <script src="/dist/js/main.js"></script>
+
+    
+    
+    <script>
+    
+        // product slider
+        $('.owl-product').owlCarousel({
+            loop:true,
+            nav:true,
+            dots: false,
+            autoplay: false,
+            // center: true,
+            // autoWidth: true,
+            paginationSpeed: 1000,
+            URLhashListener:true,
+            rewindSpeed: 1000,
+            navText:[
+                "<i class='fas fa-arrow-left'></i>",
+                "<i class='fas fa-arrow-right'></i>"
+            ],
+            responsive:{
+                0:{
+                    items:1,
+                    margin: 30,
+                },
+                1000:{
+                    items:2,
+                    margin: 30,
+                },
+                1300:{
+                    items:3,
+                    margin: 30,
+
+                }
+            }
+        })
+
+        $('.owl-payment-slider').owlCarousel({
+            loop:true,
+            nav:false,
+            dots: false,
+            autoplay: true,
+            paginationSpeed: 1000,
+            rewindSpeed: 1000,
+            responsive:{
+                0:{
+                    items:4,
+                    margin: 10,
+                },
+                1300:{
+                    items:6,
+                }
+            }
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+@import 'variables';
+
+
+.loan-section{
+    width: 100%;
+    padding: 5rem 0;
+    background-color: $background-inner;
+
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-device-width: 767px) {
+            flex-direction: column;
+            grid-gap: 2rem;
+        }
+
+        .loan-section-card{
+            width: 70%;
+            height: 100%;
+            background: #FFFFFF;
+            box-shadow: 2px 3px 25px rgba(108, 108, 108, 0.25);
+            border-radius: 10px;
+            padding: 3rem 4rem 5rem;
+
+            @media screen and (max-device-width: 1199px) {
+                width: 60%;
+            }
+            @media screen and (max-device-width: 991px) {
+                width: 55%;
+            }
+            @media screen and (max-device-width: 767px) {
+                width: 100%;
+            }
+            @media screen and (max-device-width: 550px) {
+                padding: 2rem 3rem 4rem;
+            }
+
+            .title{
+                color: $primary;
+                text-align: left;
+            }
+
+            .loan-content{
+                .desc-title{
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: $background;
+                    text-align: left;
+                }
+
+                .content-desc{
+                    color: $title;
+                    margin: 0 0 3rem;
+                }
+                .desc-list{
+                    margin: 0 0 3rem 2rem;     
+                    list-style: none;
+                    
+                      
+                      & li::before {
+                        content: "\2022"; 
+                        color: $accent; 
+                        font-weight: bold;
+                        display: inline-block; 
+                        width: 1em;
+                        margin-left: -1em;
+                      }               
+                }
+            }
+            .prompt-text{
+                color: $text;
+            }
+        }
+
+        .related-product-card{
+            width: 25%;
+            height: 100%;
+            background: #FFFFFF;
+            box-shadow: 2px 3px 25px rgba(108, 108, 108, 0.25);
+            border-radius: 10px;
+            padding: 3rem 1rem;
+            position: sticky;
+            top: 20px;
+
+            @media screen and (max-device-width: 1199px) {
+                width: 35%;
+            }
+            @media screen and (max-device-width: 991px) {
+                width: 40%;
+            }
+            @media screen and (max-device-width: 767px) {
+                width: 100%;
+            }
+
+            .title{
+                color: $primary;
+                text-align: left;
+                padding: 0 3rem;
+            }
+
+            .product-list{
+                margin: 3rem 0 0;
+
+                @media screen and (max-device-width: 767px) {
+                    display: flex;
+                    padding: 0 2rem;
+                    overflow: scroll;
+                }
+
+
+                &-item{
+                    width: 100%;
+                    display: flex;
+                    margin: 1rem 0rem;
+                    padding: 1rem 0;
+
+                    &:hover{
+                        background: #FFFFFF;
+                        box-shadow: 1px 1px 10px rgba(108, 108, 108, 0.1);
+                        border-radius: 10px;
+                    }
+
+                    &-img{
+                        width: 75px;
+                        height: 50px;
+                        margin-left: 1rem;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    &-text{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-left: 1rem;
+
+
+                        .product-title{
+                            font-weight: 500;
+                            font-size: 16px;
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        
+    }
+}

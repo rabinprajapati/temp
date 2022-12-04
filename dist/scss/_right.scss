@@ -1,0 +1,72 @@
+@import 'variables';
+
+.right-to-info-section{
+    padding: 5rem 0;
+
+    .container{
+        .right-to-info-card{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-gap: 2rem;
+
+            @media screen and (max-device-width: 991px) {
+                grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+                                        
+            }
+            
+
+            .card-info-section{
+                background: #FFFFFF;
+                box-shadow: 2px 3px 20px rgba(108, 108, 108, 0.25);
+                border-radius: 10px;
+                display: flex;
+                padding: 1.5rem;
+
+                @media screen and (max-device-width: 421px) {
+                    flex-direction: column;  
+                    width: 60%;
+                    margin: 3rem;       
+                }
+
+                .card-info-img{
+                    width: 150px;
+                    height: 190px;
+                    margin-right: 2rem;
+
+                    @media screen and (max-device-width: 421px) {
+                        width: 100%;
+                        height: 100%;
+                        margin: auto;                    
+                    }
+
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 5px;
+                    }
+                }
+                .card-info-detail{
+                    display: flex;
+                    flex-direction: column;
+                    grid-gap: 1rem;
+
+                    @media screen and (max-device-width: 421px) {
+                        margin: 10px 0 0;                    
+                    }
+                    .card-name{
+                        font-size: 2.2rem;
+                        font-weight: 600;
+                    }
+                    .card-designation{
+                        font-weight: 500;
+                    }
+                    .card-email, .card-number, .card-ext{
+                        color: $text;
+                    }
+                }
+            }
+        }
+    }
+}

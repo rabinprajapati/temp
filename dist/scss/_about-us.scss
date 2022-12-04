@@ -1,0 +1,17 @@
+@import 'variables';
+
+.who-are-we-section{
+    padding: 5rem 0;
+    .container{
+        .title{
+            color: $primary;
+            text-align: center;
+        }
+
+        .who-are-we-content{
+            color: black;
+            line-height: 1.8;
+            margin: 5rem 0 0;
+        }
+    }
+}
